@@ -1,0 +1,37 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-header {
+
+    background-color: black;
+    text-align: center;
+    
+}
+
+.nav-header .nav-title {
+
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+
+.nav-header .nav-title p {
+
+    color: whitesmoke;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter; 
+}
+
+.containerFigures {
+
+    display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
